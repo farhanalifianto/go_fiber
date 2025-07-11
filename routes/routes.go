@@ -7,5 +7,6 @@ import (
 func SetupRoutes(app fiber.Router){
 	AuthRoutes(app)
 	NoteRoutes(app)
+	ProductRoutes(app)
 	
 }
